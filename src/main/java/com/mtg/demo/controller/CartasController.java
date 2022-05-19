@@ -47,7 +47,7 @@ public class CartasController {
     }
 
     @DeleteMapping("/{id}")
-    public void deleteCartas(Long id) {
+    public void deleteCartas(@PathVariable Long id) {
         cartasRepository.deleteById(id);
     }
 }
