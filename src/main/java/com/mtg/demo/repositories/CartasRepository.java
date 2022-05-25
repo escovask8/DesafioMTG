@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 
-public interface CartasRepository extends JpaRepository<Cartas, Long> {
+public interface CartasRepository extends JpaRepository<Cartas, Integer> {
 
 }
     
